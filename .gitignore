@@ -1,6 +1,11 @@
 __pycache__/
 *.pyc
 *.bat
+*.faiss
+
+# 数据文件（生成型，不追踪）
 *.json
 *.txt
-*.faiss
+
+# 但保留手写测试查询
+!queries.json
