@@ -1,6 +1,4 @@
-from langchain_ollama import ChatOllama
-from langchain_openai import ChatOpenAI
-from langchain_core.messages import HumanMessage
+from openai import OpenAI
 from config import RerankRAGConfig
 from generator import Generator
 import json
@@ -8,23 +6,10 @@ import json
 
 class Feedback:
     def __init__(self, cfg: RerankRAGConfig):
-        if cfg.llm_provider == "ollama":
-            self.llm = ChatOllama(
-                model=cfg.llm_model,
-                base_url=cfg.llm_base_url,
-                temperature=cfg.llm_temperature,
-                num_predict=cfg.llm_max_tokens,
-                format="json",
-            )
-        else:
-            self.llm = ChatOpenAI(
-                model=cfg.llm_model,
-                base_url=cfg.llm_base_url,
-                api_key=cfg.llm_api_key,
-                temperature=cfg.llm_temperature,
-                max_tokens=cfg.llm_max_tokens,
-                model_kwargs={"response_format": {"type": "json_object"}},
-            )
+        if cfg.llm_provider != "openai":
+            raise ValueError("Only OpenAI-compatible providers are supported.")
+        self.cfg = cfg
+        self.client = OpenAI(base_url=cfg.llm_base_url, api_key=cfg.llm_api_key)
 
     def judge(self, query: str, docs: list[dict],
               answer: str, last_feedback: str = "") -> dict:
@@ -51,7 +36,14 @@ class Feedback:
             "请直接输出 JSON 字符串，不得包含任何解释或 ```json 代码块。\n"
             '格式示例：{"should_generate_again": false, "reason": "回答准确覆盖了关键情节"}\n'
         )
-        raw = self.llm.invoke([HumanMessage(content=prompt)]).content
+        resp = self.client.chat.completions.create(
+            model=self.cfg.llm_model,
+            messages=[{"role": "user", "content": prompt}],
+            temperature=self.cfg.llm_temperature,
+            max_tokens=self.cfg.llm_max_tokens,
+            response_format={"type": "json_object"},
+        )
+        raw = resp.choices[0].message.content or ""
         try:
             result = json.loads(raw)
             return {

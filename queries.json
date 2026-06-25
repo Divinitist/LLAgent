@@ -1,0 +1,112 @@
+[
+  {
+    "category": "what",
+    "query": "气功有哪些段？",
+    "reference": "一段养气，二段运气，三段聚气，四段炼气，五段暴气，六段兵气，七段象气，八段化气，九段气宗。（注意，没有夺命境。）"
+  },
+  {
+    "category": "what",
+    "query": "杨奇从城主府偷走了什么？",
+    "reference": "伏龙丹"
+  },
+  {
+    "category": "who",
+    "query": "宋海山和云海岚是什么关系？",
+    "reference": "宋海山是云海岚的表哥"
+  },
+  {
+    "category": "who",
+    "query": "是谁在杨奇被雷劈之后放杨奇回家？",
+    "reference": "城主府大管家似的人物"
+  },
+  {
+    "category": "who",
+    "query": "谁尝试医治过杨奇？",
+    "reference": "草神医"
+  },
+  {
+    "category": "what",
+    "query": "杨奇会哪些武功？",
+    "reference": "白虎衔尸，百步神拳，金蟾吞月，猛虎跳涧，撕心裂肺"
+  },
+  {
+    "category": "why",
+    "query": "为什么杨奇要偷丹药？",
+    "reference": "因为云海岚利用他的感情，让他帮自己偷到丹药。"
+  },
+  {
+    "category": "why",
+    "query": "罗魂为什么要废除杨奇的气功？为什么不杀他？",
+    "reference": "废气功是为了惩罚他盗取伏龙丹。不杀他是因为他是杨家的少爷，并且因为他的姑姑很厉害。（这个地方需要多跳检索，因为罗魂只是提了一嘴杨奇的姑姑，没有提具体为什么）"
+  },
+  {
+    "category": "why",
+    "query": "为什么城主府要放杨奇回家？",
+    "reference": "因为怕逼问会把杨奇弄死。"
+  },
+  {
+    "category": "why",
+    "query": "为什么杨奇能很快修成神象镇狱劲？",
+    "reference": "因为有金色小人传功，雷霆巨象提供本源。"
+  },
+  {
+    "category": "how",
+    "query": "雷霆巨象有什么用处？",
+    "reference": "改造和修复杨奇的肉身和经脉"
+  },
+  {
+    "category": "how",
+    "query": "圣祖王朝是什么制度？",
+    "reference": "分封制，各路诸侯分别管辖城池，每年向圣祖王朝缴纳贡品"
+  },
+  {
+    "category": "how",
+    "query": "杨奇在五段时，和一般五段高手有什么区别？",
+    "reference": "杨奇力量更大，并且更持久"
+  },
+  {
+    "category": "how",
+    "query": "神象镇狱劲有多少微粒？",
+    "reference": "八亿四千万"
+  },
+  {
+    "category": "where",
+    "query": "神象是哪里的神灵？",
+    "reference": "西方大陆"
+  },
+  {
+    "category": "where",
+    "query": "燕都城有几个城门？",
+    "reference": "八个"
+  },
+  {
+    "category": "where",
+    "query": "燕都城旁边的河叫什么？",
+    "reference": "燕江"
+  },
+  {
+    "category": "where",
+    "query": "杨家在哪些城有分布？家主是谁？",
+    "reference": "燕都城杨战，朝露城杨真，白石城杨石，杨旭?"
+  },
+  {
+    "category": "what",
+    "query": "影毒有什么特点？",
+    "reference": "无法驱除"
+  },
+  {
+    "category": "what",
+    "query": "气宗境界有什么特点？",
+    "reference": "人形真气"
+  },
+  {
+    "category": "who",
+    "query": "杨奇和哪些人打过架？",
+    "reference": "宋海山，罗魂，杨风"
+  },
+  {
+    "category": "what",
+    "query": "杨家人会哪些气功？",
+    "reference": "百步神拳，天罗寒网，寒冰气功，真炎波，正阳气功"
+  }
+]

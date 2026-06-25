@@ -1,29 +1,14 @@
-from langchain_ollama import ChatOllama
-from langchain_openai import ChatOpenAI
-from langchain_core.messages import HumanMessage, SystemMessage
+from openai import OpenAI
 from config import RerankRAGConfig
 import json
 
 
 class Generator:
     def __init__(self, cfg: RerankRAGConfig):
-        if cfg.llm_provider == "ollama":
-            self.llm = ChatOllama(
-                model=cfg.llm_model,
-                base_url=cfg.llm_base_url,
-                temperature=cfg.llm_temperature,
-                num_predict=cfg.llm_max_tokens,
-                format="json",
-            )
-        else:
-            self.llm = ChatOpenAI(
-                model=cfg.llm_model,
-                base_url=cfg.llm_base_url,
-                api_key=cfg.llm_api_key,
-                temperature=cfg.llm_temperature,
-                max_tokens=cfg.llm_max_tokens,
-                model_kwargs={"response_format": {"type": "json_object"}},
-            )
+        if cfg.llm_provider != "openai":
+            raise ValueError("Only OpenAI-compatible providers are supported.")
+        self.cfg = cfg
+        self.client = OpenAI(base_url=cfg.llm_base_url, api_key=cfg.llm_api_key)
 
     @staticmethod
     def fmt_docs(docs: list[dict]) -> str:
@@ -57,5 +42,11 @@ class Generator:
             '格式示例: {"answer": "阅读后产生的回答"}\n'
             "【给出回答】:\n"
         )
-        msg = self.llm.invoke([HumanMessage(content=prompt)])
-        return msg.content
+        resp = self.client.chat.completions.create(
+            model=self.cfg.llm_model,
+            messages=[{"role": "user", "content": prompt}],
+            temperature=self.cfg.llm_temperature,
+            max_tokens=self.cfg.llm_max_tokens,
+            response_format={"type": "json_object"},
+        )
+        return resp.choices[0].message.content or ""

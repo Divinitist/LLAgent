@@ -1,42 +1,52 @@
 [
-  {
-    "query": "杨奇从城主府偷走了什么？",
-    "reference": "伏龙丹"
-  },
-  {
-    "query": "谁治疗了杨奇被雷劈后的伤势？",
-    "reference": "草神医"
-  },
-  {
-    "query": "杨奇和哪些人打过架？",
-    "reference": ""
-  },
-  {
-    "query": "杨奇被废武功后，谁想帮助他恢复气海？",
-    "reference": "杨战"
-  },
-  {
-    "query": "天位学院是什么？",
-    "reference": ""
-  },
-  {
-    "query": "杨奇修炼的神象镇狱劲是什么级别的功法？",
-    "reference": ""
-  },
-  {
-    "query": "燕都城有哪些豪门家族？",
-    "reference": "杨、陈、王、李、洪"
-  },
-  {
-    "query": "杨奇的姑姑是谁？",
-    "reference": ""
-  },
-  {
-    "query": "杨奇在第几章被雷劈？",
-    "reference": "第2章"
-  },
-  {
-    "query": "杨家的赔偿方案是什么？",
-    "reference": ""
-  }
+  {"difficulty": "easy", "query": "杨奇从城主府偷走了什么？", "reference": "伏龙丹"},
+  {"difficulty": "easy", "query": "谁废掉了杨奇的气功？", "reference": "罗魂"},
+  {"difficulty": "easy", "query": "云海岚是什么身份？", "reference": "云海城的公主"},
+  {"difficulty": "easy", "query": "杨奇的父亲叫什么？", "reference": "杨战"},
+  {"difficulty": "easy", "query": "杨奇的姑姑在哪个门派？", "reference": "天位学院"},
+  {"difficulty": "easy", "query": "杨奇被雷劈后眉心里出现了什么？", "reference": "金色小人"},
+  {"difficulty": "easy", "query": "杨奇被雷劈后体内凝聚成了什么？", "reference": "雷霆巨象"},
+  {"difficulty": "easy", "query": "治疗杨奇伤势的医师是谁？", "reference": "草神医"},
+  {"difficulty": "easy", "query": "宋海山是云海岚的什么人？", "reference": "表哥"},
+  {"difficulty": "easy", "query": "杨奇修炼的神功叫什么？", "reference": "神象镇狱劲"},
+  {"difficulty": "easy", "query": "神象镇狱劲把人体看成多少微粒？", "reference": "八亿四千万"},
+  {"difficulty": "easy", "query": "杨奇的小丫头叫什么？", "reference": "小燕"},
+  {"difficulty": "easy", "query": "杨奇被雷劈后看到的八个字是什么？", "reference": "破而后立，天下无敌"},
+  {"difficulty": "easy", "query": "杨家的身法叫什么？", "reference": "鱼龙百变"},
+  {"difficulty": "easy", "query": "杨奇和谁约定三个月后比试？", "reference": "杨鸿烈"},
+  {"difficulty": "easy", "query": "杨奇大哥二哥中的是什么毒？", "reference": "影毒"},
+  {"difficulty": "easy", "query": "聚气丹在丰饶大陆上是什么？", "reference": "通用货币"},
+  {"difficulty": "easy", "query": "杨家的压轴绝学叫什么？", "reference": "不败王拳"},
+  {"difficulty": "easy", "query": "杨魁施展的自损修为的功法叫什么？", "reference": "碧血气功"},
+  {"difficulty": "easy", "query": "燕都城除杨家有哪四大豪门？", "reference": "陈、王、李、洪"},
+  {"difficulty": "medium", "query": "杨奇为什么要偷伏龙丹？", "reference": "为了和云海岚一起远走高飞"},
+  {"difficulty": "medium", "query": "杨奇的气功为什么被废后还能恢复？", "reference": "被雷劈后闪电化为雷霆巨象修复了经脉气海"},
+  {"difficulty": "medium", "query": "杨战对杨奇偷伏龙丹是什么态度？", "reference": "原谅了他，说年轻谁没有为情所困的时候"},
+  {"difficulty": "medium", "query": "杨家这次要赔偿城主府多少？", "reference": "起码一半产业"},
+  {"difficulty": "medium", "query": "杨奇怎样从暴气境觉醒第一个微粒的？", "reference": "修炼神象镇狱劲，借助体内雷象的力量"},
+  {"difficulty": "medium", "query": "杨奇用什么技巧以五段击败了六段的杨魁？", "reference": "用神象镇狱劲催动百步神拳连续轰击上百拳，真气源源不绝"},
+  {"difficulty": "medium", "query": "杨奇被废气功后经历了哪些奇遇？", "reference": "被雷劈→雷象入体→金色小人传授神象镇狱劲→功力恢复突破"},
+  {"difficulty": "medium", "query": "杨家分支中修为达到八段的有哪些人？", "reference": "杨石、杨真、杨旭"},
+  {"difficulty": "medium", "query": "杨战展示什么功夫震慑了众人？", "reference": "人形真气，接近气宗境界"},
+  {"difficulty": "medium", "query": "杨魁和杨奇交手先后用了哪些招式？", "reference": "疯魔气刀、五瓣梅开、碧血气功"},
+  {"difficulty": "medium", "query": "杨奇为什么没有被城主府当场格杀？", "reference": "因为他姑姑是天位学院的弟子，城主有所顾忌"},
+  {"difficulty": "medium", "query": "杨奇恢复功力后为什么要隐藏实力？", "reference": "怕暴露神象镇狱劲引来杀身灭族之祸"},
+  {"difficulty": "medium", "query": "杨宙公检查杨奇身体发现了什么？", "reference": "身体极其坚韧，生命力强横如远古巨兽"},
+  {"difficulty": "medium", "query": "大哥二哥中毒对杨家局势有什么影响？", "reference": "杨战子嗣全废，分支乘机逼宫要罢免家主"},
+  {"difficulty": "medium", "query": "杨家有哪些武学？", "reference": "白虎衔尸、鱼龙百变、不败王拳、疯魔气功、寒冰劲"},
+  {"difficulty": "medium", "query": "杨奇被雷劈时原本是什么修为？", "reference": "四段炼气巅峰"},
+  {"difficulty": "medium", "query": "杨奇恢复后修为到了什么境界？", "reference": "五段暴气"},
+  {"difficulty": "medium", "query": "罗魂的修为大概是什么境界？", "reference": "七段象气境"},
+  {"difficulty": "medium", "query": "杨战准备传授杨奇什么功法？", "reference": "不败王拳"},
+  {"difficulty": "medium", "query": "气功九段从低到高怎么排？", "reference": "养气、运气、聚气、炼气、暴气、兵气、象气、化气、气宗"},
+  {"difficulty": "hard", "query": "杨奇因祸得福的完整经过是怎样的？", "reference": "偷伏龙丹被云海岚骗→被罗魂废气功→被绑树上遭雷劈→闪电化雷霆巨象修复气海→金色小人入眉心传授神象镇狱劲→功力恢复并突破到五段暴气"},
+  {"difficulty": "hard", "query": "云海岚为什么要利用杨奇？", "reference": "她修炼到了瓶颈，需要伏龙丹才能突破并进入天位学院成为弟子"},
+  {"difficulty": "hard", "query": "为什么杨石夺位最终失败了？", "reference": "杨奇异军突起展示实力+杨战展示人形真气震慑+元老团派杨宙公表态支持杨战"},
+  {"difficulty": "hard", "query": "杨奇击败杨魁的关键因素是什么？", "reference": "神象镇狱劲真气雄浑源源不绝+经脉经过雷霆淬炼坚韧无比+最后爆发雷霆巨象的雷电之力"},
+  {"difficulty": "hard", "query": "杨家面临的危机有哪些？", "reference": "赔偿伏龙丹损失巨大+杨奇被废气功+大哥二哥中影毒+分支趁机会逼宫夺位"},
+  {"difficulty": "hard", "query": "杨奇经历了哪些成长和变化？", "reference": "心智成熟不再冲动+功力大进从四段到五段+学会藏拙隐藏实力+增强了家族责任感"},
+  {"difficulty": "hard", "query": "杨战的三个儿子分别是怎样的处境？", "reference": "大哥二哥在回家路上遭袭击中影毒，经脉破损功力退步；杨奇先被废气功后因雷劈奇遇恢复并突破"},
+  {"difficulty": "hard", "query": "为什么杨奇不敢告诉父亲神象镇狱劲的事？", "reference": "神象镇狱劲很可能是神级功法，一旦暴露会引来灭族之灾"},
+  {"difficulty": "hard", "query": "杨家人对杨奇的态度经历了哪些变化？", "reference": "鄙视嘲笑→震惊→忌惮→打压（杨魁挑战）→失败后妥协"},
+  {"difficulty": "hard", "query": "从杨奇的故事可以看出丰饶大陆的什么规则？", "reference": "实力至上，只要有实力一切过错都可以弥补"}
 ]
