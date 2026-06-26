@@ -2,7 +2,7 @@ import os
 from openai import OpenAI
 
 # 从环境变量中获取您的API KEY，配置方法见：https://www.volcengine.com/docs/82379/1399008
-api_key = '2fc9822a-18f8-42e5-a9d6-3aea2849d4f6'
+
 
 client = OpenAI(
     base_url="https://ark.cn-beijing.volces.com/api/v3",
